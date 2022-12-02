@@ -6,7 +6,7 @@ with open("README.md") as _file:
 
 setuptools.setup(
         name= "skyvault",
-        version = "0.0.1",
+        version = "0.0.2",
         author = "VeteranCode",
         author_email = "jacob.h.barrow@gmail.com",
         long_description = long_description,
@@ -14,7 +14,7 @@ setuptools.setup(
         url = "",
         packages=setuptools.find_packages(),
         install_requires = [
-            "dataclasses", "Penguin-Services"
+            "dataclasses", "Penguin-Services", "pycryptodome"
         ], 
         license = "MIT",
         classifiers =  [
