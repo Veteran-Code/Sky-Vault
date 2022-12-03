@@ -6,7 +6,7 @@ with open("README.md") as _file:
 
 setuptools.setup(
         name= "skyvault",
-        version = "0.0.2",
+        version = "1.0.0",
         author = "VeteranCode",
         author_email = "jacob.h.barrow@gmail.com",
         long_description = long_description,

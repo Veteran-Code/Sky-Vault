@@ -22,7 +22,7 @@ class ConfigurationUtils(abc.ABC):
             except Exception as e:
                 raise Exception(e)
         
-        self.crypto = AESCipher(password)
+        #self.crypto = AESCipher(password)
         self.config = configparser.ConfigParser()
         self.configuration_file = configuration_file
         
@@ -36,7 +36,7 @@ class ConfigurationUtils(abc.ABC):
                 self.config[section] = {}
                 
             for item in values:
-                self.config[section][item['key']] = self.crypto.encrypt(item['value'])
+                self.config[section][item['key']] = item['value'] #self.crypto.encrypt(item['value'])
                 
         self.write(self.configuration_file, self.config)
         
@@ -70,7 +70,7 @@ class LinuxConfigParser(ConfigurationUtils):
         for section in self.get_sections():
             print(f'Section: {section}')
             for key in self.config[section]:
-                print(f'Key: {key}, Value: {self.decrypt(self.config[section][key])}')
+                print(f'Key: {key}, Value: {self.config[section][key]}') #{self.decrypt(self.config[section][key])}')
                 
             print()
             

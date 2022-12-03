@@ -5,7 +5,7 @@
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-critical)](https://github.com/jacob-h-barrow/Penguin-Services)
 [![MIT License](https://img.shields.io/badge/License-MIT-lightgrey)](https://github.com/jacob-h-barrow/Penguin-Services/blob/main/Penguin-Services.png)
 
-![Penguin-Services](https://user-images.githubusercontent.com/112576275/190166942-016ed0cc-e11c-4db5-8d09-40d5f894d6f1.png)
+![skyvault](https://user-images.githubusercontent.com/117854828/205438474-5aaf5b90-034b-421a-801e-8c1e12a387bd.png)
 
 - Created By Jacob H Barrow
 
@@ -16,7 +16,6 @@
 - Still work in progress
 
 ## Todos
-- AES encryption
 - Tkinter manager
 - Automatic installation
 - Cloud integration
